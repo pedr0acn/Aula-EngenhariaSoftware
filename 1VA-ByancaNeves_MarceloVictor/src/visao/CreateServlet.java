@@ -120,11 +120,7 @@ public class CreateServlet extends HttpServlet {
 		out.println("<BR><H2 style= color:#FFFFFF>Filme inserido com sucesso </H2");
 		out.println("<BR>");
 		
-		Filme f1 = new Filme(titulo,
-				genero,
-				minutos=Integer.parseInt(duracao),
-				ano=Integer.parseInt(lancamento),
-				produtora);
+		Filme f1 = new Filme(titulo, genero, minutos=Integer.parseInt(duracao), ano=Integer.parseInt(lancamento), produtora);
 		
 		ControleFilme ctrlSalvar = new ControleFilme();
 		ctrlSalvar.salvarFilme(f1);
