@@ -21,6 +21,7 @@ public class ConfirmServlet extends HttpServlet{
 		out.println("<HTML>");
 		out.println("<HEAD>");
 		out.println("<TITLE>Deseja apagar esse filme?</TITLE>");
+		out.println("<TITLE>Tem certeza?</TITLE>");//alteração
 		out.println("<style>body {background-image:url(\"https://images.alphacoders.com/100/thumb-1920-1005214.jpg\"); background-repeat: no-repeat; background-size: 100% 100%; border: 3;} #img {margin-left: center ;}</style>");
 	    out.println("</HEAD>");
 		out.println("<BODY>");
